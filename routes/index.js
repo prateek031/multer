@@ -29,7 +29,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage })
 
 router.post('/profile', upload.single('image'), function (req, res) {
-  res.send("fuck you")
+  res.send("done)
 });
 
 module.exports = router;
